@@ -23,7 +23,7 @@ import com.projeto.cadastro.entities.dtos.ClienteDTO;
 import com.projeto.cadastro.services.ClienteService;
 
 @RestController
-@RequestMapping(value = "/cliente")
+@RequestMapping(value = "/clientes")
 public class ClienteController {
 	
 	@Autowired
