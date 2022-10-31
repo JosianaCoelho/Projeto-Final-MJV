@@ -64,5 +64,4 @@ public class ClienteService {
 			throw new IllegalArgumentException("CPF já cadastrado!");
 		}
 	}
-	
 }

@@ -31,5 +31,4 @@ class ClienteServiceTest {
 		Optional<Cliente> resultado = clienteRepository.findByEmail(expectativa);
 		Assertions.assertEquals(expectativa, resultado);
 	}
-	
 }

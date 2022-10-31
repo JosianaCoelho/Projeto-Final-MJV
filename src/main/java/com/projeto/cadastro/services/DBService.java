@@ -15,9 +15,7 @@ public class DBService {
 	private ClienteRepository clienteRepository;
 
 	public void instanciaDB() {
-
 		Cliente cliente = new Cliente();
 		clienteRepository.saveAll(Arrays.asList(cliente));
-		
 	}
 }

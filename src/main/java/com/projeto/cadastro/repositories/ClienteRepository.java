@@ -9,5 +9,4 @@ import com.projeto.cadastro.entities.Cliente;
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
        Optional<Cliente> findByEmail(String email);
        Optional<Cliente> findByCpf(String cpf);
-	
 }
